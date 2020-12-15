@@ -156,45 +156,45 @@ setlocale(LC_ALL,"spanish");
             }
         if (turn==1){ //Si es el turno del jugador X se colocará la ficha dónde haya elejido.
             switch(coinPlay){
-                case 1 : tateti[0][0]={'X'};
+                case 1 : tateti[0][0]='X';
                         break;
-                case 2 : tateti[0][1]={'X'};
+                case 2 : tateti[0][1]='X';
                         break;
-                case 3 : tateti[0][2]={'X'};
+                case 3 : tateti[0][2]='X';
                         break;
-                case 4 : tateti[1][0]={'X'};
+                case 4 : tateti[1][0]='X';
                         break;
-                case 5 : tateti[1][1]={'X'};
+                case 5 : tateti[1][1]='X';
                         break;
-                case 6 : tateti[1][2]={'X'};
+                case 6 : tateti[1][2]='X';
                         break;
-                case 7 : tateti[2][0]={'X'};
+                case 7 : tateti[2][0]='X';
                         break;
-                case 8 : tateti[2][1]={'X'};
+                case 8 : tateti[2][1]='X';
                         break;
-                case 9 : tateti[2][2]={'X'};
+                case 9 : tateti[2][2]='X';
                         break;
             }
         }
         else{ //Si no, es el turno del jugador O se colocará la ficha dónde haya elejido.
             switch(coinPlay){
-                case 1 : tateti[0][0]={'O'};
+                case 1 : tateti[0][0]='O';
                        break;
-                case 2 : tateti[0][1]={'O'};
+                case 2 : tateti[0][1]='O';
                        break;
-                case 3 : tateti[0][2]={'O'};
+                case 3 : tateti[0][2]='O';
                        break;
-                case 4 : tateti[1][0]={'O'};
+                case 4 : tateti[1][0]='O';
                        break;
-                case 5 : tateti[1][1]={'O'};
+                case 5 : tateti[1][1]='O';
                        break;
-                case 6 : tateti[1][2]={'O'};
+                case 6 : tateti[1][2]='O';
                        break;
-                case 7 : tateti[2][0]={'O'};
+                case 7 : tateti[2][0]='O';
                        break;
-                case 8 : tateti[2][1]={'O'};
+                case 8 : tateti[2][1]='O';
                        break;
-                case 9 : tateti[2][2]={'O'};
+                case 9 : tateti[2][2]='O';
                        break;
             }
         }
